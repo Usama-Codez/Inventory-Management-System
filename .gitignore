@@ -1,0 +1,39 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignored NuGet packages (will be restored automatically)
+packages/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore backup and temporary files
+*.log
+*.tmp
+*.bak
+*.ncb
+*.cache
+*.zip
+*.vspscc
+*.vssscc
+
+# Ignore VS Code settings (optional if using VS Code)
+.vscode/
+
+# Ignore ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore JetBrains Rider
+.idea/
+
+# Windows Thumbnail Cache
+Thumbs.db
+
+# Fody generated files
+FodyWeavers.xml
+FodyWeavers.xsd
