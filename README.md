@@ -53,7 +53,7 @@ Contributions are welcome! If you'd like to add a module, fix a bug, or improve 
 
 ## 🎥 Demo
 
-*(Add video or gif link here when available)*
+*(Will add video or gif link here soon)*
 
 ---
 
@@ -193,7 +193,7 @@ dotnet build
 
 ## Screenshots
 
-
+*(Will add screenshots here soon...)*
 ---
 
 ## Support
