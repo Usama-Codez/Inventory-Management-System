@@ -228,5 +228,6 @@ This project is UI-based and does not include automated unit tests. Manual testi
 * Navigate sidebar to manage categories/customers/inventory
 * Use dashboard to monitor stock levels
 * Data is stored and retrieved via Oracle queries
-
+  
+```
 ```
