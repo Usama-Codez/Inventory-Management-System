@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework> <!-- or net48 if you're using .NET Framework -->
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- UI & Animation -->
+    <PackageReference Include="Bunifu.UI.WinForms" Version="1.5.3.1.0" />
+    <PackageReference Include="WinFormAnimation" Version="1.6.0.4" />
+
+    <!-- Progress Bar UI -->
+    <PackageReference Include="CircularProgressBar" Version="2.8.0.16" />
+
+    <!-- JSON & API -->
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="RestSharpSigned" Version="105.2.3" />
+
+    <!-- Windows Compatibility -->
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.0" />
+
+    <!-- Fody & Costura for IL weaving and embedding -->
+    <PackageReference Include="Fody" Version="4.0.2" />
+    <PackageReference Include="Costura.Fody" Version="3.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="FodyWeavers.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
